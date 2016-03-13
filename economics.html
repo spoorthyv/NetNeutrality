@@ -7,6 +7,115 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/economics-grid.css">
   <link rel="stylesheet" href="css/economics.css">
+  <style>
+@font-face {
+    font-family: 'Pier Sans';
+    src: url('/fonts/pier-regular-webfont.eot');
+    src: url('/fonts/pier-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pier-regular-webfont.woff2') format('woff2'),
+         url('/fonts/pier-regular-webfont.woff') format('woff'),
+         url('/fonts/pier-regular-webfont.ttf') format('truetype'),
+         url('/fonts/pier-regular-webfont.svg#pier_sansregular') format('svg');
+}
+@font-face {
+    font-family: 400 2.105em/1.48 'Pier Sans';
+    src: url('/fonts/pier-regular-webfont.eot');
+    src: url('/fonts/pier-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pier-regular-webfont.woff2') format('woff2'),
+         url('/fonts/pier-regular-webfont.woff') format('woff'),
+         url('/fonts/pier-regular-webfont.ttf') format('truetype'),
+         url('/fonts/pier-regular-webfont.svg#pier_sansregular') format('svg');
+}
+@font-face {
+    font-family: 2.316em/1.38 PierSans;
+    src: url('/fonts/pier-regular-webfont.eot');
+    src: url('/fonts/pier-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pier-regular-webfont.woff2') format('woff2'),
+         url('/fonts/pier-regular-webfont.woff') format('woff'),
+         url('/fonts/pier-regular-webfont.ttf') format('truetype'),
+         url('/fonts/pier-regular-webfont.svg#pier_sansregular') format('svg');
+}
+@font-face {
+    font-family: PierSans;
+    src: url('/fonts/pier-regular-webfont.eot');
+    src: url('/fonts/pier-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pier-regular-webfont.woff2') format('woff2'),
+         url('/fonts/pier-regular-webfont.woff') format('woff'),
+         url('/fonts/pier-regular-webfont.ttf') format('truetype'),
+         url('/fonts/pier-regular-webfont.svg#pier_sansregular') format('svg');
+}
+@font-face {
+    font-family: PierSans-Bold;
+    src: url('/fonts/pier-bold-webfont.eot');
+    src: url('/fonts/pier-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/pier-bold-webfont.woff2') format('woff2'),
+         url('/fonts/pier-bold-webfont.woff') format('woff'),
+         url('/fonts/pier-bold-webfont.ttf') format('truetype'),
+         url('/fonts/pier-bold-webfont.svg#pier_sansbold') format('svg');
+
+} 
+@font-face {
+    font-family: normal 1.688em/1.38 Avenir-Light;
+    src: url('/fonts/SofiaProLight-webfont.eot');
+    src: url('/fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/SofiaProLight-webfont.woff2') format('woff2'),
+         url('/fonts/SofiaProLight-webfont.woff') format('woff'),
+         url('/fonts/SofiaProLight-webfont.ttf') format('truetype'),
+         url('/fonts/SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+
+}
+
+@font-face {
+    font-family: normal 1.188em/1.68 Avenir-Light;
+    src: url('/fonts/SofiaProLight-webfont.eot');
+    src: url('/fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/SofiaProLight-webfont.woff2') format('woff2'),
+         url('/fonts/SofiaProLight-webfont.woff') format('woff'),
+         url('/fonts/SofiaProLight-webfont.ttf') format('truetype'),
+         url('/fonts/SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+
+}
+
+@font-face {
+    font-family: normal 1.563em/1.38 Avenir-Light;
+    src: url('/fonts/SofiaProLight-webfont.eot');
+    src: url('/fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/SofiaProLight-webfont.woff2') format('woff2'),
+         url('/fonts/SofiaProLight-webfont.woff') format('woff'),
+         url('/fonts/SofiaProLight-webfont.ttf') format('truetype'),
+         url('/fonts/SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+
+}
+
+@font-face {
+    font-family: normal 2.188em/1.38 Avenir-Light;
+    src: url('/fonts/SofiaProLight-webfont.eot');
+    src: url('/fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/SofiaProLight-webfont.woff2') format('woff2'),
+         url('/fonts/SofiaProLight-webfont.woff') format('woff'),
+         url('/fonts/SofiaProLight-webfont.ttf') format('truetype'),
+         url('/fonts/SofiaProLight-webfont.svg#sofia_prolight') format('svg');
+}
+
+@font-face {
+    font-family: SourceCodePro-Regular;
+    src: url('/fonts/sourcecodepro-regular-webfont.eot');
+    src: url('/fonts/sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
+         url('/fonts/sourcecodepro-regular-webfont.woff') format('woff'),
+         url('/fonts/sourcecodepro-regular-webfont.ttf') format('truetype'),
+         url('/fonts/sourcecodepro-regular-webfont.svg#sofia_prolight') format('svg');
+}
+@font-face {
+    font-family: 1.16em/1.78 SourceCodePro-Regular;
+    src: url('/fonts/sourcecodepro-regular-webfont.eot');
+    src: url('/fonts/sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
+         url('/fonts/sourcecodepro-regular-webfont.woff') format('woff'),
+         url('/fonts/sourcecodepro-regular-webfont.ttf') format('truetype'),
+         url('/fonts/sourcecodepro-regular-webfont.svg#sofia_prolight') format('svg');
+}
+</style>
 </head>
 <body class="body page-economics clearfix">
   <button onClick="window.location='examples.html';" class="_button _button-1">EXAMPLE</button>

@@ -1,0 +1,227 @@
+body {
+  background-color: rgb(111, 187, 93);
+  font: normal 1.188em/1.68 Avenir-Light;
+  color: rgb(91, 91, 91);
+}
+
+.container .container {
+  float: left;
+}
+
+.container .element {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-color: rgba(222, 222, 222, 0);
+}
+
+._button {
+  display: block;
+  position: fixed;
+  top: 11px;
+  width: 25%;
+  height: 47px;
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  line-height: 1.38;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+
+._button:hover {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.container-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 18;
+  width: 100%;
+  height: 68px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.31);
+  background-color: rgb(100, 186, 80);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.34);
+}
+
+.container-2 {
+  position: fixed;
+  top: 104px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  width: 546px;
+  height: 245px;
+  margin: 0 auto;
+}
+
+.container-3 {
+  width: 91.8333333333%;
+  max-width: 1148px;
+  margin: 54px auto 0;
+}
+
+.container-4 {
+  width: 49.001814882%;
+  margin-left: 7.96847%;
+}
+
+.container-5,
+.container-6 {
+  width: 91.8333333333%;
+  max-width: 1148px;
+  margin: 80px auto 0;
+}
+
+.container-7 {
+  width: 48.9989791288%;
+  margin-left: 17.0627299999%;
+}
+
+.element-1 {
+  float: left;
+  width: 206px;
+  height: 200px;
+  margin: 26px 0 0 0.54087%;
+  background-image: url('../images/coins%20(1).png');
+}
+
+.element-2 {
+  position: relative;
+  float: left;
+  z-index: 17;
+  width: 100%;
+  margin-top: 384px;
+  padding-bottom: 80px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .5);
+}
+
+.element-3 {
+  float: left;
+  width: 43.0307732092%;
+  height: 343px;
+  background-image: url('../images/Graphs.png');
+}
+
+.element-4 {
+  float: right;
+  width: 39.5644283121%;
+  height: 392px;
+  margin-top: -118px;
+  background-image: url('../images/Group(2).png');
+}
+
+.element-5 {
+  float: left;
+  width: 33.9382940108%;
+  height: 403px;
+  background-image: url('../images/Group.png');
+}
+
+.text-1 {
+  float: left;
+  margin: 98px 0 0 6.74794%;
+  font: 2.316em/1.38 PierSans;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.text-2 {
+  float: right;
+  width: 99.9942129629%;
+  min-height: 89px;
+  font: 400 2.105em/1.48 'Pier Sans';
+  color: rgb(141, 222, 121);
+}
+
+.text-3 {
+  float: right;
+  clear: both;
+  width: 100%;
+  margin-top: 17px;
+  padding-top: 22px;
+  padding-right: 10px;
+  border-top: 2px solid rgb(151, 151, 151);
+  font-size: 1em;
+  color: rgb(91, 91, 91);
+}
+
+.text-4 {
+  position: relative;
+  float: left;
+  z-index: 9;
+  width: 49%;
+  min-height: 89px;
+  font: 400 2.105em/1.48 'Pier Sans';
+  text-align: right;
+  color: rgb(141, 222, 121);
+}
+
+.text-5 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 8;
+  width: 49%;
+  margin-top: 17px;
+  padding-top: 22px;
+  padding-right: 10px;
+  border-top: 2px solid rgb(151, 151, 151);
+  font-size: 1em;
+  text-align: right;
+  color: rgb(91, 91, 91);
+}
+
+.text-6 {
+  float: right;
+  width: 100%;
+  min-height: 89px;
+  font: 400 2.105em/1.48 'Pier Sans';
+  color: rgb(141, 222, 121);
+}
+
+.text-7 {
+  float: right;
+  clear: both;
+  width: 100%;
+  margin-top: 16px;
+  padding-top: 22px;
+  padding-right: 10px;
+  border-top: 2px solid rgb(151, 151, 151);
+  font-size: 1em;
+  color: rgb(91, 91, 91);
+}
+
+._button-1 {
+  left: 75%;
+  z-index: 22;
+  padding-top: 10px;
+  font-size: 1.316em;
+}
+
+._button-2 {
+  left: 50%;
+  z-index: 21;
+  padding-top: 10px;
+  font-size: 1.316em;
+}
+
+._button-3 {
+  left: 25%;
+  z-index: 20;
+  padding-top: 10px;
+  font-size: 1.316em;
+}
+
+._button-4 {
+  left: 0;
+  z-index: 19;
+  padding-top: 6px;
+  font-size: 1.421em;
+}

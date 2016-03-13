@@ -257,7 +257,7 @@ body {
   margin: auto 0;
   padding-left: 39px;
   border-left: 3px solid rgb(255, 255, 255);
-  font-family: "Lucida Console", Monaco, monospace;
+  font: 1.16em/1.78 SourceCodePro-Regular;
   color: rgba(255, 255, 255, 0.94);
   word-break: normal;
 }

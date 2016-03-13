@@ -18,14 +18,6 @@ body {
 
 .element {
   position: relative;
-  z-index: 0;
-  width: 800px;
-  height: 2780px;
-  margin: 175px auto 0;
-  background: url('../images/casestudy(3).png') rgb(111, 187, 93);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center top;
 }
 
 ._button {
@@ -45,6 +37,26 @@ body {
 
 ._button:hover {
   color: rgba(255, 255, 255, 0.72);
+}
+
+.element-1 {
+  z-index: 0;
+  width: 800px;
+  height: 2780px;
+  margin: 175px auto 0;
+  background: url('../images/casestudy(3).png') rgb(111, 187, 93);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+}
+
+.element-2 {
+  float: left;
+  clear: both;
+  z-index: 6;
+  width: 100%;
+  height: 68px;
+  background-color: rgba(222, 222, 222, 0);
 }
 
 ._button-1 {

@@ -8,9 +8,16 @@ body {
   float: left;
 }
 
+.element .container {
+  position: relative;
+  float: left;
+  width: 59.4166666666%;
+  height: 383px;
+}
+
 .element .element {
   position: relative;
-  width: 487px;
+  width: 40.5833333333%;
   height: 383px;
   background-color: rgb(230, 230, 230);
 }
@@ -46,7 +53,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 28;
+  z-index: 29;
   width: 100%;
   height: 75px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.31);
@@ -54,34 +61,34 @@ body {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.34);
 }
 
-.container-2 {
+.container-3 {
   position: relative;
-  z-index: 26;
+  z-index: 27;
   width: 1158px;
   height: 683px;
   margin: 476px auto 0;
 }
 
-.container-3 {
+.container-4 {
   width: 100%;
   height: 190px;
   margin: 0 auto;
-}
-
-.container-4 {
-  position: relative;
-  float: left;
-  clear: both;
-  z-index: 25;
-  width: 100%;
-  height: 190px;
 }
 
 .container-5 {
   position: relative;
   float: left;
   clear: both;
-  z-index: 21;
+  z-index: 26;
+  width: 100%;
+  height: 190px;
+}
+
+.container-6 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 22;
   width: 64.25%;
   height: 346px;
   margin: -45px 0 0 209px;
@@ -89,7 +96,7 @@ body {
 
 .element-1 {
   position: relative;
-  z-index: 5;
+  z-index: 6;
   width: 100%;
   height: 383px;
   margin-top: 75px;
@@ -99,7 +106,7 @@ body {
 
 .element-10 {
   position: relative;
-  z-index: 16;
+  z-index: 17;
   width: 80px;
   height: 70px;
   margin: -271px 0 0 87.63231%;
@@ -111,7 +118,7 @@ body {
 
 .element-11 {
   position: relative;
-  z-index: 18;
+  z-index: 19;
   width: 88px;
   height: 77px;
   margin: -163px 0 0 648px;
@@ -123,7 +130,7 @@ body {
 
 .element-12 {
   position: relative;
-  z-index: 20;
+  z-index: 21;
   width: 65px;
   height: 77px;
   margin: -48px 0 0 77px;
@@ -146,7 +153,7 @@ body {
 .element-4 {
   position: relative;
   clear: both;
-  z-index: 9;
+  z-index: 10;
   width: 4px;
   height: 107px;
   margin: -100px 0 0 581px;
@@ -155,7 +162,7 @@ body {
 
 .element-5 {
   position: relative;
-  z-index: 10;
+  z-index: 11;
   width: 100px;
   height: 100px;
   margin: -92px 0 0 76px;
@@ -197,7 +204,7 @@ body {
 
 .element-9 {
   position: relative;
-  z-index: 14;
+  z-index: 15;
   width: 21.7898832684%;
   height: 312px;
   margin: 3px 0 0 66px;
@@ -219,8 +226,9 @@ body {
 .text-10 {
   position: relative;
   float: left;
-  z-index: 19;
+  z-index: 20;
   width: 390px;
+  height: 68px;
   margin: -37px 0 0 26.41339%;
   font-size: 1em;
   color: rgb(255, 255, 255);
@@ -228,7 +236,7 @@ body {
 
 .text-11 {
   position: relative;
-  z-index: 27;
+  z-index: 28;
   width: 24.0833333333%;
   margin: 59px auto 0;
   font-family: PierSans;
@@ -249,11 +257,12 @@ body {
 .text-3 {
   top: 0;
   bottom: 0;
-  left: 537px;
+  left: 50px;
   z-index: 4;
-  width: 55.25%;
+  width: 92.9873772791%;
   height: 255px;
   margin: auto 0;
+  padding-right: 10px;
   padding-left: 39px;
   border-left: 3px solid rgb(255, 255, 255);
   font: 1.16em/1.78 SourceCodePro-Regular;
@@ -266,7 +275,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 6;
+  z-index: 7;
   width: 100px;
   margin: auto;
   padding-top: 31px;
@@ -278,7 +287,7 @@ body {
 .text-5 {
   position: relative;
   float: left;
-  z-index: 8;
+  z-index: 9;
   width: 46.398503274%;
   margin: 66px 0 0 42px;
   font-family: 'Pier Sans';
@@ -292,7 +301,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 22;
+  z-index: 23;
   width: 100px;
   margin: auto;
   padding-top: 30px;
@@ -315,8 +324,9 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 15;
-  width: 55.5123216601%;
+  z-index: 16;
+  width: 413px;
+  height: 68px;
   margin: -266px 0 0 26.41339%;
   font-size: 1em;
   color: rgb(255, 255, 255);
@@ -325,8 +335,9 @@ body {
 .text-9 {
   position: relative;
   float: left;
-  z-index: 17;
-  width: 53.7634408602%;
+  z-index: 18;
+  width: 400px;
+  height: 68px;
   margin: -154px 0 0 26.41339%;
   font-size: 1em;
   color: rgb(255, 255, 255);
@@ -335,7 +346,7 @@ body {
 ._button-1 {
   top: 11px;
   left: 75%;
-  z-index: 32;
+  z-index: 33;
   padding-top: 10px;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.5);
@@ -344,7 +355,7 @@ body {
 ._button-2 {
   top: 11px;
   left: 50%;
-  z-index: 31;
+  z-index: 32;
   padding-top: 10px;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.5);
@@ -353,7 +364,7 @@ body {
 ._button-3 {
   top: 11px;
   left: 25%;
-  z-index: 30;
+  z-index: 31;
   padding-top: 10px;
   font-size: 1em;
   color: rgba(255, 255, 255, 0.72);
@@ -362,206 +373,108 @@ body {
 ._button-4 {
   top: 13px;
   left: 0;
-  z-index: 29;
+  z-index: 30;
   padding-top: 6px;
   font-size: 1.08em;
   color: rgba(0, 0, 0, 0.5);
 }
 
-@media(max-width: 1097px) {
+@media(max-width: 839px) {
   .element .element {
     width: 44.3938012762%;
   }
 
-  .container .container-4 {
-    position: relative;
-    z-index: 25;
-  }
-
   .container .container-5 {
     position: relative;
-    z-index: 21;
+    z-index: 26;
+  }
+
+  .container .container-6 {
+    position: relative;
+    z-index: 22;
     margin-top: -30px;
   }
 
   .container .element-10 {
     position: relative;
-    z-index: 16;
+    z-index: 17;
     margin-top: -268px;
   }
 
   .container .element-11 {
     position: relative;
-    z-index: 18;
+    z-index: 19;
     margin-top: -160px;
   }
 
   .container .element-12 {
     position: relative;
-    z-index: 20;
+    z-index: 21;
     margin-top: -52px;
   }
 
   .container .element-4 {
     position: relative;
-    z-index: 9;
+    z-index: 10;
   }
 
   .container .element-5 {
     position: relative;
-    z-index: 10;
+    z-index: 11;
+  }
+
+  .container .element-6 {
+    position: relative;
+    z-index: 12;
   }
 
   .container .element-9 {
     position: relative;
-    z-index: 14;
+    z-index: 15;
     margin-top: 0;
   }
 
   .container .text-10 {
     position: relative;
-    z-index: 19;
+    z-index: 20;
     margin-top: -34px;
+  }
+
+  .container .text-3 {
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: -1px;
+    width: 93.587011033%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 22px;
+    border-left-width: 0;
+    border-left-style: none;
+    font-size: 0.8em;
   }
 
   .container .text-5 {
     position: relative;
-    z-index: 8;
+    z-index: 9;
   }
 
   .container .text-8 {
     position: relative;
-    z-index: 15;
+    z-index: 16;
     margin-top: -263px;
   }
 
   .container .text-9 {
     position: relative;
-    z-index: 17;
+    z-index: 18;
     margin-top: -139px;
   }
 
-  .container-2 {
-    position: relative;
-    z-index: 26;
-  }
-
-  .element .text-1,
-  .element .text-2 {
-    left: 12.5256673511%;
-  }
-
-  .element .text-3 {
-    top: 0;
-    bottom: 0;
-    left: auto;
-    right: 0;
-    width: 55.6061987237%;
-    height: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 22px;
-    padding-right: 10px;
-    border-left-width: 0;
-    border-left-style: none;
-  }
-
-  .element .text-4,
-  .element .text-6 {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
-  .element-1 {
-    position: relative;
-    z-index: 5;
-    height: auto;
-  }
-
-  .element-13 {
-    position: relative;
-    z-index: 0;
-    margin-top: 59px;
-  }
-
-  .text-11 {
+  .container-3 {
     position: relative;
     z-index: 27;
-    margin-top: 54px;
-  }
-}
-
-@media(max-width: 839px) {
-  body {
-    font-size: 1.563em;
-  }
-
-  .container .container-4 {
-    position: relative;
-    z-index: 25;
-  }
-
-  .container .container-5 {
-    position: relative;
-    z-index: 21;
-  }
-
-  .container .element-10 {
-    position: relative;
-    z-index: 16;
-  }
-
-  .container .element-11 {
-    position: relative;
-    z-index: 18;
-  }
-
-  .container .element-12 {
-    position: relative;
-    z-index: 20;
-  }
-
-  .container .element-4 {
-    position: relative;
-    z-index: 9;
-  }
-
-  .container .element-5 {
-    position: relative;
-    z-index: 10;
-  }
-
-  .container .element-9 {
-    position: relative;
-    z-index: 14;
-  }
-
-  .container .text-10 {
-    position: relative;
-    z-index: 19;
-  }
-
-  .container .text-5 {
-    position: relative;
-    z-index: 8;
-  }
-
-  .container .text-8 {
-    position: relative;
-    z-index: 15;
-  }
-
-  .container .text-9 {
-    position: relative;
-    z-index: 17;
-  }
-
-  .container-2 {
-    position: relative;
-    z-index: 26;
   }
 
   .element .text-1 {
@@ -576,14 +489,6 @@ body {
     font-size: 1.4em;
   }
 
-  .element .text-3 {
-    top: 0;
-    bottom: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 0.8em;
-  }
-
   .element .text-4,
   .element .text-6 {
     top: 0;
@@ -595,16 +500,19 @@ body {
 
   .element-1 {
     position: relative;
-    z-index: 5;
+    z-index: 6;
+    height: auto;
   }
 
   .element-13 {
     position: relative;
     z-index: 0;
+    margin-top: 59px;
   }
 
   .text-11 {
     position: relative;
-    z-index: 27;
+    z-index: 28;
+    margin-top: 54px;
   }
 }

@@ -379,9 +379,20 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 
-@media(max-width: 839px) {
+@media(max-width: 835px) {
+  .element .container {
+    position: relative;
+    clear: both;
+    z-index: 5;
+    width: 59.4011976047%;
+    height: 316px;
+    margin-top: -91px;
+    margin-left: 40.59693%;
+  }
+
   .element .element {
-    width: 44.3938012762%;
+    position: relative;
+    z-index: 3;
   }
 
   .container .container-5 {
@@ -392,25 +403,21 @@ body {
   .container .container-6 {
     position: relative;
     z-index: 22;
-    margin-top: -30px;
   }
 
   .container .element-10 {
     position: relative;
     z-index: 17;
-    margin-top: -268px;
   }
 
   .container .element-11 {
     position: relative;
     z-index: 19;
-    margin-top: -160px;
   }
 
   .container .element-12 {
     position: relative;
     z-index: 21;
-    margin-top: -52px;
   }
 
   .container .element-4 {
@@ -423,36 +430,21 @@ body {
     z-index: 11;
   }
 
-  .container .element-6 {
-    position: relative;
-    z-index: 12;
-  }
-
   .container .element-9 {
     position: relative;
     z-index: 15;
-    margin-top: 0;
   }
 
   .container .text-10 {
     position: relative;
     z-index: 20;
-    margin-top: -34px;
   }
 
   .container .text-3 {
     top: 0;
     bottom: 0;
-    left: auto;
-    right: -1px;
-    width: 93.587011033%;
-    height: auto;
     margin-top: auto;
     margin-bottom: auto;
-    padding-top: 22px;
-    border-left-width: 0;
-    border-left-style: none;
-    font-size: 0.8em;
   }
 
   .container .text-5 {
@@ -463,30 +455,21 @@ body {
   .container .text-8 {
     position: relative;
     z-index: 16;
-    margin-top: -263px;
   }
 
   .container .text-9 {
     position: relative;
     z-index: 18;
-    margin-top: -139px;
   }
 
   .container-3 {
     position: relative;
+    float: left;
+    clear: both;
     z-index: 27;
-  }
-
-  .element .text-1 {
-    top: 240px;
-    left: 12.5225489784%;
-    font-size: 1.4em;
-  }
-
-  .element .text-2 {
-    top: 75px;
-    left: 12.5225489784%;
-    font-size: 1.4em;
+    margin-top: 78px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .element .text-4,
@@ -501,18 +484,24 @@ body {
   .element-1 {
     position: relative;
     z-index: 6;
-    height: auto;
+    height: 608px;
+    margin-top: 76px;
   }
 
   .element-13 {
     position: relative;
+    clear: none;
     z-index: 0;
-    margin-top: 59px;
+    margin-top: -92px;
   }
 
   .text-11 {
     position: relative;
+    float: left;
+    clear: both;
     z-index: 28;
-    margin-top: 54px;
+    margin-top: -227px;
+    margin-right: 0;
+    margin-left: 37.95846%;
   }
 }

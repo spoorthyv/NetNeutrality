@@ -101,7 +101,7 @@ body {
   height: 383px;
   margin-top: 75px;
   background-color: rgba(0, 0, 0, 0.2);
-  overflow: scroll;
+  overflow: visible;
 }
 
 .element-10 {
@@ -265,7 +265,8 @@ body {
   padding-right: 10px;
   padding-left: 39px;
   border-left: 3px solid rgb(255, 255, 255);
-  font: 1.16em/1.78 SourceCodePro-Regular;
+  font-size: 1.16em;
+  line-height: 1.78;
   color: rgba(255, 255, 255, 0.94);
   word-break: normal;
 }
@@ -381,18 +382,10 @@ body {
 
 @media(max-width: 835px) {
   .element .container {
-    position: relative;
-    clear: both;
-    z-index: 5;
     width: 59.4011976047%;
     height: 316px;
-    margin-top: -91px;
-    margin-left: 40.59693%;
-  }
-
-  .element .element {
-    position: relative;
-    z-index: 3;
+    margin-top: 292px;
+    margin-left: 0.01497%;
   }
 
   .container .container-5 {
